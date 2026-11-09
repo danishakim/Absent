@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>@bsent</title>
+  <meta name="description" content="ABSENT — streetwear online store.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,700;1,700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <button class="icon-btn" id="menuOpen" aria-label="Open menu">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <a href="#/" class="logo" aria-label="Absent home"><img src="assets/logo.png" alt="@bsent"></a>
+    <nav class="desktop-nav" aria-label="Main">
+      <a href="#/shop/all">All</a>
+      <a href="#/shop/new">New</a>
+      <a href="#/shop/tees">Tees</a>
+      <a href="#/shop/shirts">Shirts</a>
+      <a href="#/shop/tops">Tops</a>
+      <a href="#/shop/bottoms">Bottoms</a>
+      <a href="#/shop/accessories">Accessories</a>
+    </nav>
+    <a href="#/cart" class="cart-link" aria-label="Cart">
+      <span class="cart-label">CART</span><span class="cart-count" id="cartCount">0</span>
+    </a>
+  </header>
+
+  <!-- Slide-out menu (Figma: Menu) -->
+  <div class="menu-overlay" id="menu" hidden>
+    <div class="menu-panel">
+      <div class="menu-top">
+        <a href="#/" class="logo"><img src="assets/logo.png" alt="@bsent"></a>
+        <button class="icon-btn" id="menuClose" aria-label="Close menu">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M5 5l14 14M19 5L5 19"/></svg>
+        </button>
+      </div>
+      <ul class="menu-main">
+        <li><a href="#/shop/all">ALL</a></li>
+        <li><a href="#/shop/new">NEW</a></li>
+        <li><a href="#/shop/tees">TEES</a></li>
+        <li><a href="#/shop/shirts">SHIRTS</a></li>
+        <li><a href="#/shop/tops">TOPS</a></li>
+        <li><a href="#/shop/bottoms">BOTTOMS</a></li>
+        <li><a href="#/shop/accessories">ACCESSORIES</a></li>
+        <li><a href="#/shop/undergarments">UNDERGARMENTS</a></li>
+        <li><a href="#/cart">CART</a></li>
+      </ul>
+      <ul class="menu-info">
+        <li><a href="#/page/returns">RETURN &amp; REFUND POLICY</a></li>
+        <li><a href="#/page/shipping">SHIPPING &amp; DELIVERY</a></li>
+        <li><a href="#/page/terms">TERMS &amp; CONDITIONS</a></li>
+        <li><a href="#/page/privacy">PRIVACY AND POLICY</a></li>
+        <li><a href="#/contact">CONTACT US</a></li>
+      </ul>
+      <div class="menu-bottom">
+        <a href="#/contact" class="red">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+          ACCOUNT
+        </a>
+        <a href="#/shop/all" class="red">FILTER</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <a href="#/page/returns">Return &amp; Refund</a>
+    <a href="#/page/shipping">Shipping</a>
+    <a href="#/page/terms">Terms</a>
+    <a href="#/page/privacy">Privacy</a>
+    <a href="#/contact">Contact</a>
+    <p>© <span id="year"></span> @bsent</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
