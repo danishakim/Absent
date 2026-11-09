@@ -6,6 +6,20 @@ A streetwear online store website, built from the **ABSENT** Figma design.
 
 ![ABSENT homepage](assets/hero.png)
 
+## About
+
+**@bsent** is a streetwear clothing brand concept. It was designed and built as our group project for the Human Computer Interaction course.
+
+We first designed the full shopping experience in Figma: more than 40 mobile screens, plus a desktop version. The screens include the homepage, product listings, product details, size chart, cart, checkout, orders, profile, settings and the store's policy pages. We then turned that design into this working, responsive website.
+
+The goal was to apply HCI principles to a real-world online store:
+
+- **Easy to learn:** familiar e-commerce patterns (menu, cart icon, product grid) so shoppers know what to do straight away.
+- **Clear feedback:** every action, such as adding to cart, removing an item or sending a form, shows a visible response.
+- **Error prevention:** checkout is locked until the shopper agrees to the terms, and the shop limits each item to one per size.
+- **Consistency:** the same header, colours, fonts and button styles appear on every page.
+- **Works everywhere:** the same site adapts to phones, tablets and desktops.
+
 ## Group members
 
 | No. | Name | Student ID |
