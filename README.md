@@ -2,7 +2,31 @@
 
 A streetwear online store website, built from the **ABSENT** Figma design.
 
+> **Human Computer Interaction (CRM1953) — PBL Assignment, January 2025**
+
 ![ABSENT homepage](assets/hero.png)
+
+## Group members
+
+| No. | Name | Student ID |
+|----:|------|-----------|
+| 1 | Muhammad Danish Hakim bin Mohd Rizal Suhardi | SWE24070235 |
+| 2 | Muhammad Aliff bin Mohammad Shukri | SWE24070626 |
+| 3 | Muhammad Adham bin Md Fadzli | SWE24070029 |
+| 4 | Muhammad Akmal Safwan bin Badro Hisham | SWE24070328 |
+
+**Reviewer:** Muhammad Najmi Qayyum Mohd Akhir
+
+## How the design meets the assessment criteria
+
+| Criteria | What we did |
+|----------|-------------|
+| **Usability & User Experience** | Same header on every page (menu, logo, cart count). Categories in the top bar on desktop and in a slide-out menu on mobile. Feedback messages for "Added to cart" and the 1-per-size limit. Checkout stays disabled until the terms box is ticked. |
+| **Accessibility** | Alt text on product images, labels on every form field, `aria-label` on icon-only buttons (menu, close, cart, gallery arrows). Black-on-white text for high contrast. Menu closes with the Esc key. |
+| **Consistency & Design Principles** | One colour palette (black, white, ABSENT red `#A70000`) and two fonts (Inter, Archivo Narrow) used throughout. Layouts follow the Figma screens. Related controls are grouped together (size picker beside Add to Cart), following the proximity principle and Fitts's Law. |
+| **Functionality & Interactivity** | Working category filter, price sort, pagination, image gallery, size picker, cart (saved in the browser), checkout form and contact form. |
+| **Performance & Responsiveness** | Responsive grid: 2 columns on phones, 3 on tablets, 4 on desktop. Images load lazily. Tested at 375 px (phone) and 1280 px (desktop). |
+| **Innovation & Creativity** | Bold streetwear brand identity (star-and-horse artwork, italic display headings) and an animated slide-out menu. |
 
 ## Pages
 
